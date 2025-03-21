@@ -1,0 +1,42 @@
+		*{
+			margin: 0;
+			padding: 0;
+		}
+			
+		html{
+			background-image: url('../img/fondopagina.webp');
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		body{
+			width: 90%;
+			margin: 1% auto;
+			padding: 1%;
+			box-shadow: 1px 1px 10px #665D2D;
+			border-radius: 10px;
+			background-color: #FED93Fd0;
+			backdrop-filter: blur(20px);
+		}
+		a{
+			text-decoration: none;
+			color: #000;
+		}
+		figure>img{
+			width: 95%;
+			margin: auto;
+		}
+		label{
+			display: inline-block;
+			min-width: 100px;
+		}
+
+		@font-face{
+			src: url('../fonts/simpson.otf');
+			font-family: simpson;
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		h1{
+			font-family: simpson;
+		}

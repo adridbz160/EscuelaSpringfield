@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Escuela 1ª de Springfield</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css">
+		<link rel="stylesheet" type="text/css" href="css/estructura.css">
+		<style type="text/css">
+			main>h2{
+				font-size: 1.2em;
+				margin-bottom: 1%;
+			}
+
+			main p{
+				text-align: justify;
+			}
+
+			main h3{
+				margin: 1.2% 0;
+			}
+
+			main>article{
+				display: flex;
+				flex-wrap: wrap;
+			}
+
+			main>article>section{
+				border: 1px solid #000;
+				margin: 1%;
+				padding: 1%;
+				flex: 1;
+				display: flex;
+				align-items: center;
+			}
+			main>article>section:nth-of-type(even){
+				background-color: #E6DB7E;
+			}
+
+			main>article>section>figure{
+				min-width: 150px;
+				max-width: 200px;
+			}
+			main>article>section>p{
+				margin: 0 1%;
+			}
+
+			main>article:nth-of-type(2){
+				flex-direction: row-reverse;
+			}
+
+			main>article:first-of-type>section:first-of-type{
+				background-color: #ff0000;
+				color: #fff;
+				font-weight: bold;
+			}
+		@media screen and (max-width: 1063px){
+				main>article>section{
+					flex-direction: column;
+				}
+				main>article>section>figure{
+					min-width: 200px;
+					max-width: 300px;
+				}
+			}
+
+		main p span{
+				font-size: 1.5em;
+				border-bottom: 1px solid #000;
+				font-style: italic;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			
+			<h1>Escuela primaria de Springfield</h1>
+
+			<form>
+				<label>Usuario: </label>
+				<input type="text" name="user" placeholder="Usuario" />
+				<br />
+				<label>Contraseña: </label>
+				<input type="password" name="pass" placeholder="Contraseña" />
+				<br />
+				<label><input type="checkbox" name="recordarme" /> Mantenme conectado</label>
+
+				<button type="submit">Log-in</button>
+			</form>
+
+		</header>
+		<nav>
+			<ul>
+				<li><a href="inicioSimpsons.html">Inicio</a></li>
+				<li><a href="equipTrabajoSimpsons.html">Equipo de Trabajo</a></li>
+				<li><a href="castigadosSimpsons.html">Castigados</a></li>
+				<li><a href="contactoSimpsons.html">Contacto</a></li>					
+			</ul>
+		</nav>
+		<main>
+			
+			<h2>Castigados</h2>
+
+			<article>
+				<section>					
+					<figure>
+						<img src="img/castigados/Bart.webp" />
+					</figure>
+
+					<p><span>Bart Simpson</span> <br />Bart es decididamente el más rebelde y travieso de la familia. Es un muchacho simpático y también muy travieso, que hace muchas bromas con su mejor amigo Milhouse. Sigue los programas de su ídolo Krusty el Payaso. Es desobediente y hace todo lo que le pasa por la cabeza. Su nombre es un anagrama de "brat", que en inglés significa "travieso". Su ideología es "yo no fui, nadie me vio, no pueden demostrarlo". También en un capítulo Seymour Skinner descubre que es alérgico al camarón.
+					<p>
+				</section>
+				
+				<section>					
+					<figure>
+						<img src="img/castigados/Milhouse.webp" />
+					</figure>
+
+					<p><span>Milhouse Van Houten</span> <br />Milhouse, como todo niño, va a la Escuela Primaria de Springfield, en la que es agredido diariamente por los bravucones de la escuela, Jimbo, Dolph y Kearney; es agredido por mucha gente como Nelson, y hasta ha sido agredido por Lisa. En una ocasión, Bart, incluyó a Milhouse en La lista de los más buscados del FBI, Bart siempre mete en problemas a Milhouse, y le ayuda en diferentes cosas, como en separar a sus padres; casualmente, Milhouse se hizo amigo de Bart cuando Bart se volvió gracioso haciendo sonidos de gases a Milhouse.
+					<p>
+				</section>
+			</article>
+
+			<article>
+				<section>					
+					<figure>
+						<img src="img/castigados/Nelson.webp" />
+					</figure>
+
+					<p><span>Nelson Muntz</span> <br />Un rasgo importante de él es su permanente actitud matonesca y la expresión de satisfacción "Ha-Haaa!", que expresa luego de agredir a los demás. En realidad, Nelson es una víctima y producto de una familia disfuncional en extremo siendo su madre la más inconsciente de su acciones. Una vez mencionó que tenía una hermana, pero también dijo que podría haber fallecido. Su padre le dejó tras haber dicho que fue a comprar cigarrillos, pero nunca volvió. Por lo tanto, Nelson ha llegado a alucinar con él. Aun así, su padre sigue reapareciendo en la serie. Su padre regresa a casa y, al comer una barra de chocolate, que no sabía que tenía cacahuetes/maníes. Esto le produce alergia, que le hace parecerse a Joseph Merrick, "El Hombre Elefante"; se ve obligado a irse a vivir a un circo.
+					<p>
+				</section>
+				
+				<section>					
+					<figure>
+						<img src="img/castigados/Jimbo.webp" />
+					</figure>
+
+					<p><span>Jimbo Jones</span> <br />Es visto en la mayoría de veces como un rudo y fuerte brabucón que domina, junto con sus tres compañeros, la escuela. Aunque es demostrado que no es más que un cobarde, incluso suele ver telenovelas con su madre y llorar. Por ejemplo, planeaba poner una bomba apestosa en la escuela. También es uno de los ayudantes del Campamento Krusty en "Kamp Krusty". Por otro lado, se lo ve de novio con Laura Powers aunque ella lo deja debido al gran susto que le da Moe cuando lo amenaza con un cuchillo aunque no le iba a hacer nada. En una ocasión, el Sr. Burns se hace pasar por Jimbo para conseguir el dinero recaudado por la escuela luego de encontrar petróleo en ella. Jimbo también es visto junto a su familia. 
+					<p>
+				</section>
+			</article>
+
+			<article>
+				<section>					
+					<figure>
+						<img src="img/castigados/Kearney.webp" />
+					</figure>
+
+					<p><span>Kearney Zzyzwicz</span> <br />Kearney es uno de los bravucones de la Escuela Primaria de Springfield junto con Dolph y Jimbo, y Nelson, fue compañero de Otto, por lo que se deja en evidencia que repitio varios cursos. Es de estatura media alta, de gran contextura, y es calvo. Kearney es el abusón con el hábito de golpear con su puño su otra mano, lleva una pulsera con puntas en cada mano, parece ser metalero. Aunque aparenta ser solo unos años más grande que Bart, puede conducir, ha salido con la madre de Jimbo (él insiste en que ella inició la relación), y ha sido visto afeitándose, además de fumando. Más notablemente es el hecho que tiene un hijo pequeño (que duerme en un cajón), a quien ha entrenado para ser un abusón también pateando el castillo de arena de Rod y Todd Flanders. 
+					<p>
+				</section>
+				
+				<section>					
+					<figure>
+						<img src="img/castigados/Dolph.webp" />
+					</figure>
+
+					<p><span>Dolph Starbeam</span> <br />Según "El Libro de Bart" (un libro con información sobre la serie) le gusta hablar con las nubes. También se ve que es judio, ya que menciona haber celebrado su Bar Mitzvá en un restaurante de marisco ubicado en el bosque. Se le ha visto con una variación de su camisa en azul. Su avatar es un cíclope. Aunque no tiene novia, la madre de Jimbo Jones le parece bastante guapa. Se puede notar que no tiene cabello. Parece ser fanático de bandas de heavy metal como Metallica, Judas Priest, Black Sabbath y su preferida, Megadeth.
+					<p>
+				</section>
+			</article>
+
+
+		</main>
+		<footer>
+			<p>Director del Centro: Seymour Skinner</p>
+		</footer>
+	</body>
+</html>

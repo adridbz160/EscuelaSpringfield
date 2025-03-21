@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Escuela 1ª de Springfield</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css">
+		<link rel="stylesheet" type="text/css" href="css/estructura.css">
+		<style type="text/css">
+			main>h2{
+				font-size: 1.2em;
+				margin-bottom: 1%;
+			}
+
+			main p{
+				text-align: justify;
+			}
+
+			main h3{
+				margin: 1.2% 0;
+			}
+
+			main>article>section{
+				display: flex;
+			}
+
+			main>article>section>article{
+				flex: 1;
+				display: flex;
+				align-content: center;
+			}
+			main>article>section>article:first-of-type{
+				align-items: center;
+			}
+
+			main>article>section>article>p{
+				margin-right: 2%;
+			}
+
+			main>article>section>article:last-of-type{
+				display: flex;
+				flex-wrap: wrap;
+				align-content: center;
+				justify-content: center;
+			}
+
+			main>article>section>article>figure{
+				flex: 1;
+				min-width: 150px;
+				max-width: 200px;
+			}
+
+			main>section>article{
+				display: flex;
+				flex-wrap: wrap-reverse;
+				align-items: center;
+			}
+
+			main>section>p{
+				margin: 1% 0;
+			}
+
+			main>section>article>section:first-of-type{		
+				flex: 2;
+			}
+			main>section>article>section:last-of-type{
+				flex: 3;
+			}
+			main>section>article>section>figure{
+				margin: auto;
+				min-width: 207px;
+				max-width: 300px;
+			}
+			table{
+				width: 100%;
+			}
+			table, table td, table th {
+				margin: 1%;
+				padding: 1%;
+			}
+
+			table th {
+				color: #fff;
+				background-color: #4c4c4c;
+			}
+
+			table tr:nth-of-type(even){
+				background-color: #E6DB7E;
+			}
+
+			table tr:nth-of-type(2) td{
+				color: #ff0000;
+				font-weight: bold;
+			}
+
+			@media screen and (max-width: 313px){
+				main>article>section>article>figure, main>section>article>section>figure{
+					min-width: 50px;
+				}
+			}
+
+
+		</style>
+	</head>
+
+	<body>
+		<header>
+			
+			<h1>Escuela primaria de Springfield</h1>
+
+			<form>
+				<label>Usuario: </label>
+				<input type="text" name="user" placeholder="Usuario" />
+				<br />
+				<label>Contraseña: </label>
+				<input type="password" name="pass" placeholder="Contraseña" />
+				<br />
+				<label><input type="checkbox" name="recordarme" /> Mantenme conectado</label>
+
+				<button type="submit">Log-in</button>
+			</form>
+
+		</header>
+		<nav>
+			<ul>
+				<li><a href="inicioSimpsons.html">Inicio</a></li>
+				<li><a href="equipTrabajoSimpsons.html">Equipo de Trabajo</a></li>
+				<li><a href="castigadosSimpsons.html">Castigados</a></li>
+				<li><a href="contactoSimpsons.html">Contacto</a></li>					
+			</ul>
+		</nav>
+		<main>
+			<h2>Bienvenida</h2>
+
+			<p>La escuela primaria de Springfield se caracteriza por la gran calidad de la enseñanza impartida por los profesores, los cuales, por lo general, asisten animados a clase y se preocupan de si los alumnos están aprendiendo. Con frecuencia envían a los alumnos que se comportan mal al despacho del director Skinner para que este les imparta algún castigo. Segun el Superintendente Chalmers, esta escuela era la más derruida de Misuri y que por eso la habían desarmado ladrillo a ladrillo y trasladado a Springfield. Tambien se dice que la escuela tenia varias ventanas rotas, no tenia salón de ordenadores, y en el patio casi no habia juegos y los pocos que habia eran peligrosos. Se señaló que la escuela está forrada en asbesto, un compuesto químico altamente tóxico. Gracias a las buenas notas del alumnad, esta recibe muchos subsidios a lo largo del año. 
+			<p>
+
+			<article>
+				<h3>Información del Centro</h3>
+				<section>
+					<article>
+					<p>Esta escuela tiene un aspecto cuadriculado donde tanto el interior como el exterior esta formado de manera que se pueda aprovechar el poco espacio que se le permite tener en un pequeño terreno. La fachada esta compuesta por colores amarillos y morados, con un cartel en la puerta principal, con una bandera y muchos setos a su alrededor, y el interior esta formado por pasillos con colores verdosos en las paredes, rojo oscuro en el suelo y gris en el techo. Casi todas las aulas son iguales pese a sus cambios de color o posicion de los asientos, esto ultimo comparando la clase de fisica y quimica y la de musica. Esta compuesto tambien con una sala de profesores, gimnasio que se usa mas para eventos que otra cosa y tiene una pequeña caseta donde vive Willie el de mantenimiento.
+					<p>
+					</article>
+
+					<article>
+						<figure>
+							<img src="img/inicio/edificio.webp" />
+						</figure>
+						<figure>
+							<img src="img/inicio/escuela3.webp" />
+						</figure>
+						<figure>
+							<img src="img/inicio/escuela5.webp" />
+						</figure>
+						<figure>
+							<img src="img/inicio/escuela6.webp" />
+						</figure>
+					</article>
+				</section>
+			</article>
+
+			<section>
+				
+				<h3>Informe de daños</h3>
+
+				<p>Aunque no nos esta permitido, hemos preferido advertir a toda aquella familia que este dispuesta a apuntar a sus niños a este colegio de las posibles malas influencias que hay por aqui. Podran ver que son muy pocos pero, estos niños son capaces de derrumbar el edificio con solo media hora que tienen de recreo ¡Cuidado con ellos, sobretodo con el primero, no es conveniente acercarse a el ni a su familia, mucho menos a su padre que es el culpable de todas estas catastrofes que ocurren aqui!
+				<p>
+
+				<article>
+					
+					<section>
+						
+						<figure>
+							<img src="img/inicio/bart.webp" />
+						</figure>
+
+					</section>
+
+					<section>
+						
+						<table>
+							<tr>
+								<th>
+									Alumno
+								</th>
+								<th>
+									Nivel de Daños
+								</th>
+							</tr>
+							<tr>
+								<td>
+									Bart Simpson
+								</td>
+								<td>
+									¡Alerta Roja!
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Nelson Muntz
+								</td>
+								<td>
+									Muy Grave
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Jimbo Jones
+								</td>
+								<td>
+									Grave
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Kearney Zzyzwicz
+								</td>
+								<td>
+									Grave
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Dolph Starbeam
+								</td>
+								<td>
+									Grave
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Milhouse Van Houte
+								</td>
+								<td>
+									Insignificante
+								</td>
+							</tr>
+						</table>
+						</table>
+
+					</section>
+				</article>
+
+				<p>Lo volvere a repetir, por si no les queda claro, aunque no nos esta permitido porque puede quitarle dinero y alumnos al centro, hemos preferido advertir a toda aquellas familia que esten dispuesta a matricular a sus niños en este centro de las posibles malas influencias que hay por aqui. Podran ver que son muy pocos pero, estos niños son capaces de derrumbar el edificio con solo media hora que tienen de recreo ¡Cuidado con ellos, sobretodo con el primero, llamado BART SIMPSON, no es conveniente acercarse ni a el ni a su familia, mucho menos a su padre, HOMER SIMPSON, quien es el culpable de todas las catastrofes que ocurren aqui y en la ciudad!
+				<p>
+
+				<p>Gracias y que tengan un buen dia.</p>
+
+			</section>
+
+		</main>
+		<footer>
+			<p>Director del Centro: Seymour Skinner</p>
+		</footer>
+	</body>
+</html>

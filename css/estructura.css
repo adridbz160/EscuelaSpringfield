@@ -1,0 +1,121 @@
+	header, nav, main, footer{
+		margin: 1.4% 1.4%;
+		padding: 2%;
+		border: 2px ridge #8c8c8c80;
+		border-radius: 5px;
+		box-shadow: 1px 1px 10px #665D2D;
+	}
+
+/* ---------- Cabecera de la Web ---------- */
+	header{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		background-image: url('../img/escuela.webp');
+		background-size: 100%;
+	}
+	header>h1{
+		flex: 8;
+		text-align: center;
+		font-size: 3.8vw;
+		min-width: 360px;
+		color: #E6DB7E;
+		text-shadow: 1px 1px 4px #000;
+
+	}
+
+	@media screen and (max-width: 1099px ){
+		header>h1{
+			margin: 4%;
+		}		
+	}
+
+	header>form{
+		flex: 2;
+		border: 2px ridge #8c8c8c80;
+		border-radius: 5px;
+		padding: 1% 1%;
+		text-align: center;
+		background-color: #9fD9FE80;
+		backdrop-filter: blur(20px);
+	}
+	header>form>label{
+		text-align: left;
+		margin-top: 2%;
+	}
+	header>form>input{
+		padding: 1%;
+	}
+	header>form>button{
+		display: block;
+		padding: 1%;
+		margin: 2% auto 0;
+		min-width: 60px;
+		border: 1px solid #000;		
+		border-radius: 5px;
+		font-variant: small-caps;
+		color: #E6DB7E;
+		background-color: #000;
+		font-weight: bold;
+		cursor: pointer;
+	}
+
+	header>form>button:hover{
+		border: 1px solid #fff;
+		color: #fff;
+		background-color: #000;
+		font-weight: bold;
+	}
+
+
+/* ---------- Navegación de la Web ---------- */
+
+	nav{
+		background-image: url('../img/escuela2.webp');
+		background-size: 100%;
+	}
+	
+	nav>ul{
+		list-style: none;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	nav>ul>li{
+		border: 1px solid #000;
+		padding: 0.8% 1.2%;
+		font-variant: small-caps;
+		margin-right: 1.5%;
+		background-color: #E6DB7E;
+		cursor: pointer;
+	}
+
+	nav>ul>li:hover{
+		border: 1px solid #fff;
+		color: #E6DB7E;
+		background-color: #fff;
+		font-weight: bold;
+		border: 1px solid #000;
+	}
+
+/* ---------- Cuerpo de la Web ---------- */
+
+	main{
+		background-color: #fff;
+	}
+
+	main h2, main h3{
+		color: #fff;
+		background-color: #4c4c4c;
+		border-radius: 5px;
+		padding: 0.4% 0.4% 0.4% 0.6%;
+	}
+
+/* ---------- Pie de la Web ---------- */
+
+	footer{
+		margin: 1% 1.5%;
+		text-align: right;
+		background-color: #fff;
+	}
